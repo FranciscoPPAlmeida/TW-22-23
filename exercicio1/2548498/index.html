@@ -9,6 +9,8 @@
 </head>
 <body>
 
+‹script src="js/script.js"></script>
+
 <section>
     <div class="container text-center">
         <header class="container">
@@ -22,9 +24,10 @@
             </div>
 
             <nav class="mb-40">
-                <button class="nav-button">Food</button>
-                <button class="nav-button">Drinks</button>
+                <button class="nav-button" onclick="selectCategory(this)">Food</button> 
+                <button class="nav-button" onclick="selectCategory(this)">Drink</button>
             </nav>
+
         </header>
 
         <div id="items">
